@@ -1,0 +1,68 @@
+body{
+    background-image: url('ind.jpg');
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr ;
+}
+
+.nav-bar{
+     display: flex;
+     padding: 38px   ;
+     justify-content: space-between;
+     
+
+ }
+ .left-hand {
+       display: flex;
+ }
+
+ .nav-bar > .left-hand > div {
+     margin-right: 10px;
+     font-size: 0.9em;
+     text-transform:uppercase ;
+ }
+
+
+ .nav-bar > .right-hand > div { 
+       font-size : size 0.9em ; 
+       text-transform:uppercase ;
+       color: #8a8a8a;
+}
+
+.nav-bar {
+   height: 22px;
+   border-bottom: 1px solid transparent;
+   transition: border-bottom 0.5s;
+}
+.nav-bar a {
+
+   color: #8a8a8a;
+   text-decoration: none;
+   transition : color 0.5s;
+}
+
+.nav-bar:hover {
+   border-bottom: 1px solid black ;
+}
+
+.nav-bar:hover a {
+   color:  black ;
+}
+
+
+h1 {
+    color: #8a8a8a;
+    text-decoration: none;
+    text-align: center;
+    transition : color 0.5s;
+}
+
+.location {
+    margin-left: 400px;
+
+}
